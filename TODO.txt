@@ -1,0 +1,7 @@
+
+- update docker with dns
+- download and install sky dns / docker
+- run sky dns / docker container with restart
+- install python
+- install fig
+- clone vagrant-ci
