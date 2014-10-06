@@ -2,9 +2,6 @@
 include curl
 package { 'git' : }->
 package { 'python' : }->
-class { 'apt':
-	update_timeout => 600,
-}->
 curl::fetch { "download":
   source      => "https://github.com/docker/fig/releases/download/0.5.2/linux",
   destination => "/usr/local/bin/fig",

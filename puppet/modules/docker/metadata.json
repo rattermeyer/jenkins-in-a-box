@@ -1,0 +1,16 @@
+{
+  "name": "garethr-docker",
+  "version": "1.2.2",
+  "author": "Gareth Rushgrove",
+  "summary": "Module for installing docker from the official docker repository",
+  "license": "Apache License, Version 2.0",
+  "source": "git://github.com/garethr/garethr-docker.git",
+  "project_page": "https://github.com/garethr/garethr-docker",
+  "issues_url": "https://github.com/garethr/garethr-docker/issues",
+  "description": "Install and manage docker",
+  "dependencies": [
+    {"name":"puppetlabs/apt","version_requirement":">= 1.1.0"},
+    {"name":"puppetlabs/stdlib","version_requirement":">=4.1.0"},
+    {"name":"stahnma/epel","version_requirement":">=0.0.6"}
+  ]
+}
