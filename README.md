@@ -15,7 +15,7 @@ Installation takes (depending on internet connection) around 30-45 min.
 You can check if everything is up and running
 	vagrant ssh
 	sudo docker ps | wc
-The last command should print 
+The last command should print 9 
 
 What *should* end up with is a VM with multiple docker containers
 
@@ -59,5 +59,11 @@ Solution: restart slave
 	fig start slave
 	
 ## You want to test with more than one slave
-Solution: `fig scale slave=2` (replace 2 with any number. Determines number of running instances) 
+
+	vagrant ssh
+	sudo -scale
+	fig scale slave=2
+
+Replace 2 with any number. Determines number of running instances.
+	
 	
